@@ -4208,14 +4208,25 @@ Transition
 
 /*  particles */
 
-canvas{ display: block; vertical-align: bottom; position:relative; top:-200px; height:900px !important; }
+canvas{ display: block; vertical-align: bottom; position:relative; top:-200px; /* height:900px !important;*/ }
 
 /* ---- particles.js container ---- */ 
 #particles-js{ 
   /*position:absolute; */
   width: 100%;
-  height: 700px;
+  min-height: 700px;
 
+}
+
+.pilll {
+  border: 2px solid;
+  /*border-radius: 20px;*/
+  /*padding: 15px;*/
+  /*margin: 15px;*/
+}
+
+.pilll h3 {
+  color: rgb(54, 0, 75);
 }
 
 .aurabg1 {
