@@ -4219,14 +4219,14 @@ canvas{ display: block; vertical-align: bottom; position:relative; top:-200px; /
 }
 
 .pilll {
-  border: 2px solid;
+  /* border: 2px solid; */
   /*border-radius: 20px;*/
   /*padding: 15px;*/
   /*margin: 15px;*/
 }
 
 .pilll h3 {
-  color: rgb(54, 0, 75);
+  color: rgb(0, 252, 42);
 }
 
 .aurabg1 {
@@ -4304,7 +4304,7 @@ img.aura {
 }
 */
 .navbar-default > .container .nav li a {
-  color: gray;
+  color: rgb(170, 170, 170);
 }
 
 .news-container {

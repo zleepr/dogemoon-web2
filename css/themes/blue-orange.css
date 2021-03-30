@@ -75,7 +75,7 @@ header.row .navbar.is-scrolling {
 }
 
 header.row .navbar.is-scrolling .nav li a {
-  color: #8f969d;
+  color: #90c8ff;
 }
 
 header.row .navbar.is-scrolling .nav li.active a {
@@ -98,8 +98,13 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
   color: white;
 }
 
-.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-  color: #374048;
+.navbar-default .nav li a:focus {
+  
+  background: none;
+}
+
+.navbar-default .nav li a:hover {
+  color: #00e1ff;
   background: none;
 }
 
